@@ -1,0 +1,8 @@
+(
+    'server'   => 'jabbus.ru',       # Сервер для бота
+    'port'     => '5222',            # Порт сервера для бота
+    'username' => 'jabber-shell',    # Имя пользователя на сервере
+    'password' => 'secret',          # Пароль аккаунта бота
+    'resource' => 'jabber-shell',    # Ресур бота
+    'admins'   => 'admin1@host.com admin2@host.ru', # JID админов
+)

@@ -1,0 +1,35 @@
+2009-03-03
+    * Bot was fully rewritten. Now it written on perl
+    * Partial fixed problem with non-ascii symbols
+    * Command "cd" now really change directory
+
+2008-03-15
+    * Now command "cd" is work
+    * Looging command to file
+    * Big output sends by parts
+
+2007-11-12
+    * Try to fix problem with non-ascii symbols
+
+2007-11-03
+    * Removing temporary file after executing command
+    * Renamed temporarty file.
+
+2007-10-16
+    * Improved chat mode
+
+2007-10-15
+    * Allow administration from more than one jid's
+
+2007-10-01:
+    * Added some places for config files
+    * Renamed tmp-file
+    * Added some checks for errors
+
+2007-09-30:
+    * Implemeted basic functionality
+    * Fixed bug with big output on stdout
+    * Add settings-file
+
+2007-09-29:
+    * Project started

@@ -1,0 +1,36 @@
+Jabber-Shell это Jabber-бот, позволяющий выполнять команды оболочки на
+удалённой системе посредством IM-сети Jabber.
+
+ТРЕБОВАНИЯ
+==========
+Бот написан на языке perl с использованием библиотек libnet-jabber-perl
+и libnet-xmpp-perl.
+
+ * perl
+ * libnet-xmpp-perl
+ * libnet-jabber-perl
+
+Ипользуйте менеджер пакетов своего дистрибутива для их установки
+
+УСТАНОВКА:
+=========
+1. Распакуйте архив:
+   tar jxf jabber-shell-xxxxxxxx.tar.bz2
+   
+2. Перейдите в директорию с ботом:
+   cd jabber-shell-xxxxxxxx
+
+3. Отредактируйте файл jabber-shell.conf и разместите его под одним из
+   следующих имён:
+   - ~/.jabber-shell
+   - /etc/jabber-shell.conf
+   
+
+
+ЗАПУСК
+======
+Бот запускается командой:
+
+   ./jabber-shell.pl &
+
+В директории с файлами бота.
